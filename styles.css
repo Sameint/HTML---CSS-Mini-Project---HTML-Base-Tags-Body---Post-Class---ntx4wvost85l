@@ -1,17 +1,18 @@
 body{
-  display: flex;
-  background-color: aliceblue;
-  justify-content: center;
-  align-items: center;
+  background-color: rgb(228, 96, 122);
+ display: block;
 }
 h2{
-  background-color: dimgray;
-  width:2000px;
+ background-color: rgba(18, 228, 182, 0.959);
   height: 80px;
-  text-align: center;
-  padding-top: 50px;
+padding-top: 40px;
+border-radius: 5px;
+box-shadow: 10px 10px black;
+}
+.mainContent{
+text-align: center;
 }
 .main{
-  justify-content: space-between;
-  align-content: center;
+font-size: 15px;
+color: #ffff;
 }
