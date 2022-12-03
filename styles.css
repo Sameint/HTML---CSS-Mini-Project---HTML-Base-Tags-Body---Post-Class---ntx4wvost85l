@@ -1,3 +1,4 @@
+
 body{
   background-color: rgb(228, 96, 122);
  display: block;
@@ -16,4 +17,8 @@ text-align: center;
 font-size: 15px;
 color: #ffff;
 }
-
+@media screen and (min-width: 600px) {
+  *{
+    min-width: 1190px
+  }
+}
