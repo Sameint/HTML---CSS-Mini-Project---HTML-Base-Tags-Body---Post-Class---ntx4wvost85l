@@ -1,14 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 
 body{
-  background-color: rgb(228, 96, 122);
+  background-color:#200307;
  display: block;
+ 
 }
 h2{
- background-color: rgba(18, 228, 182, 0.959);
+ background-color:#b40c23;
   height: 80px;
 padding-top: 40px;
 border-radius: 5px;
-box-shadow: 10px 10px black;
+box-shadow: 10px 10px #d4b4b9;
+color: #ffff;
+font-size: 30PX;
 }
 .mainContent{
 text-align: center;
@@ -21,4 +28,11 @@ color: #ffff;
   *{
     min-width: 1190px
   }
+}
+h3{
+  color: crimson;
+  font-size: 30px;
+}
+p{
+    font-size: 20px;
 }
